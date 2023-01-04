@@ -1,0 +1,24 @@
+b{
+	font-size: 25px;
+}
+
+.botao{
+	clear: both;
+	border: 1px solid green; 
+	background: blue; 
+	width: 100px; 
+	border-radius: 24px; 
+	margin-left: 5px; 
+	color: white; 
+	font-size: 20px;
+}
+
+.selecao{
+	border: 1px solid green; 
+	background: blue; 
+	width: 100px; 
+	border-radius: 24px; 
+	margin-left: 5px; 
+	color: white; 
+	font-size: 20px;
+}

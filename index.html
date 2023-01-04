@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Estourando balões</title>
+
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+
+		<script language='Javascript'>
+			function iniciarjogo (){
+				var nivel_jogo = document.getElementById('nivel_jogo').value;
+
+				window.location.href = 'jogo.html?' + nivel_jogo;
+			}
+		</script>
+	</head>
+
+	<body>
+		<div>
+			<p>
+				<b>Nível: </b>
+				<select id="nivel_jogo" class="selecao">
+					<option value="1">Fácil</option>
+					<option value="2">Normal</option>
+					<option value="3">Difícil</option>
+				</select>
+			</p>
+			<br>
+
+			<img src="imagens/iniciar.png" onclick="iniciarjogo()">
+		</div>
+
+		<div>
+			<h1>Como Jogar?</h1>
+			<p>Você tem um certo tempo para estoura os balões, o tempo vária de acordo com a dificuldade escolhida, para estourar os balões você tem que clicar em cima deles.</p>
+
+			<h1>Créditos</h1>
+			<p>Jogo criado por:</p>
+			<p>Paulo Roberto Ribeiro Fiori</p>
+		</div>
+	</body>
+	
+</html>
